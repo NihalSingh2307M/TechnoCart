@@ -8,7 +8,7 @@ export default function Header({ total, departments, connected }) {
           <span className="w-2 h-2 rounded-full bg-rose-500 animate-pulse flex-shrink-0" />
           <span>
             Backend unreachable — make sure Spring Boot is running on{" "}
-            <code className="font-mono bg-rose-500/10 px-1.5 py-0.5 rounded">localhost:8081</code>
+            <code className="font-mono bg-rose-500/10 px-1.5 py-0.5 rounded">{import.meta.env.VITE_API_BASE_URL || "localhost:8081"}</code>
           </span>
         </div>
       )}
