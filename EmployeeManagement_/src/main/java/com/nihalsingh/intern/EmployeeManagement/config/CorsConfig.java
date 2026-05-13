@@ -18,7 +18,7 @@ public class CorsConfig {
                                 "http://localhost:3000",
                                 "http://localhost:4200",
                                 "http://localhost:5173",
-                                "http://localhost:8080"
+                                "https://techno-cart.vercel.app"
                         )
                         .allowedMethods("GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS")
                         .allowedHeaders("*")
