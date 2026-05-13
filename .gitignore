@@ -1,0 +1,16 @@
+# Backend
+EmployeeManagement_/target/
+EmployeeManagement_/.env
+
+# Frontend
+EmployeeManagement-Frotend/node_modules/
+EmployeeManagement-Frotend/dist/
+EmployeeManagement-Frotend/.env
+
+# Extra folders
+EmployeeManagement-fullstack/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Environment files — NEVER commit these
+.env
+.env.local
+.env.development
+.env.production
+
+# .env.example IS safe to commit (no real secrets)
+!.env.example
+
+# Editor
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
